@@ -1,11 +1,21 @@
 .header {
     background-color: var(--mainColor);
     background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    text-align: center;
+
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    
     padding: 120px 0 40px;
     margin-bottom: 60px;
+}
+
+h2, img {
+    margin-bottom: 16px;
 }
 
 .avatar {
@@ -17,4 +27,10 @@
 .name {
     font-size: 18px;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: block;
+    }
 }

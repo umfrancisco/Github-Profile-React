@@ -17,10 +17,19 @@
 .itemLink {
     display: block;
     background-color: var(--mainColor);
-    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
     color: #fff;
     text-align: center;
     margin-top: 8px;
     padding: 8px;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
 }
