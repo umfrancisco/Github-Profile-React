@@ -6,11 +6,6 @@
     gap: 16px;
     text-align: center;
     padding: 120px 0 40px;
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    
 }
 
 h2, img {
@@ -23,9 +18,14 @@ h2, img {
     border-radius: 50%;
 }
 
-.name {
-    font-size: 18px;
+.title {
+    font-size: 16px;
     color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #a29bfe;
 }
 
 @media (max-width: 768px) {

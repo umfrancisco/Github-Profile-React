@@ -1,11 +1,14 @@
 import styles from './Profile.module.css'
 
-const Profile = ({userName}) => {
+const Profile = () => {
     return (
         <header className={styles.header}>
             <div>
                 <img className={styles.avatar} src={`https://github.com/umfrancisco.png`}></img>
-                <h2 className={styles.name}>{userName}</h2>
+                <h2 className={styles.title}>Francisco Guitler</h2>
+                <h2 className={styles.title}>Engenheiro back-end</h2>
+                <h2 className={styles.title}><a href="https://github.com/umfrancisco">Github</a></h2>
+                <h2 className={styles.title}><a href="https://www.linkedin.com/in/francisco-guitler-1886322b4">Linkedin</a></h2>
             </div>
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=umfrancisco&layout=compact&langs_count=7&theme=dracula"/>
         </header>
