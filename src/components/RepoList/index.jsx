@@ -19,8 +19,9 @@ const RepoList = ({ userName }) => {
 
     return (
         <div className="container">
+            <h4 className={styles.title}>Back-end Projects</h4>
             {isLoading ? (
-                <h4>Loading...</h4>
+                <h4 className={styles.title}>Loading...</h4>
             ) : (
                 <ul className={styles.list}>
                     {repos.map(repository => (

@@ -1,13 +1,18 @@
+.title {
+    margin: 32px;
+}
+
 .list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    margin-bottom: 32px;
 }
 
 .listItem {
     list-style: none;
     padding: 16px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
 }
 
 .itemName b, .itemLanguage b{
