@@ -19,7 +19,7 @@ const RepoList = ({ userName }) => {
 
     return (
         <div className="container">
-            <h4 className={styles.title}>Back-end Projects</h4>
+            <h4 className={styles.title}>Selected Projects</h4>
             {isLoading ? (
                 <h4 className={styles.title}>Loading...</h4>
             ) : (

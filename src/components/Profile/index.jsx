@@ -10,7 +10,7 @@ const Profile = () => {
                 <h2 className={styles.title}><a href="https://github.com/umfrancisco">Github</a></h2>
                 <h2 className={styles.title}><a href="https://www.linkedin.com/in/francisco-guitler-1886322b4">Linkedin</a></h2>
             </div>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=umfrancisco&layout=compact&langs_count=7&theme=dracula"/>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=umfrancisco&layout=compact&langs_count=7"/>
         </header>
     )
 }
