@@ -2,7 +2,7 @@
     background-color: var(--mainColor);
     background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
     text-align: center;
     padding: 120px 0 40px;
