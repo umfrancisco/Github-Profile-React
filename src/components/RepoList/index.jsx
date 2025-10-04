@@ -35,12 +35,6 @@ const RepoList = ({ userName }) => {
                             <div className={styles.itemLanguage}>
                                 <b>Language:</b>{repository.language}
                             </div>
-                            <div className={styles.itemLanguage}>
-                                <b>Created at:</b>{repository.created_at}
-                            </div>
-                            <div className={styles.itemLanguage}>
-                                <b>Updated at:</b>{repository.updated_at}
-                            </div>
                             <a className={styles.itemLink} target="_blank" href={repository.html_url}>Visit project</a>
                         </li>
                     ))}
