@@ -35,6 +35,7 @@ const RepoList = ({ userName }) => {
                             <div className={styles.itemLanguage}>
                                 <b>Language:</b>{repository.language}
                             </div>
+                            <div><br /></div>
                             <a className={styles.itemLink} target="_blank" href={repository.html_url}>Visit project</a>
                         </li>
                     ))}
