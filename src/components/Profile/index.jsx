@@ -6,7 +6,7 @@ const Profile = () => {
             <div>
                 <img className={styles.avatar} src={`https://github.com/umfrancisco.png`}></img>
                 <h2 className={styles.title}>Francisco Guitler</h2>
-                <h2 className={styles.title}>Full Stack Java Developer</h2>
+                <h2 className={styles.title}>Backend Developer</h2>
                 <h2 className={styles.title}><a href="https://github.com/umfrancisco">Github</a></h2>
                 <h2 className={styles.title}><a href="https://www.linkedin.com/in/francisco-guitler-1886322b4">Linkedin</a></h2>
             </div>
